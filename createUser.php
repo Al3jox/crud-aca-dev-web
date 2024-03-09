@@ -14,6 +14,10 @@
     $stmt->bind_param("ssss", $txtNombre, $txtApellido, $txtTelefono, $txtDireccion);
     $stmt->execute();
 
+    if($query){
+        Header("Location: listarUsuarios.php");
+    }
+
     echo "Usuario creado correctamente";
 
     $connection->close();

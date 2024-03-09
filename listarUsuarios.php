@@ -40,6 +40,7 @@
                 <th>APELLIDOS</th>
                 <th>TElÉFONO MÓVIL</th>
                 <th>DIRECCIÓN</th>
+                <th>ACCIÓN</th>
             </tr>                
         </thead>
         <tbody>
@@ -58,9 +59,9 @@
                 <th><?php echo $row['user_phone']?></th>
                 <th><?php echo $row['user_address']?></th>
 
-                <!-- <th class = "mp-0">
-                    <a href="eliminar.php?id=<?php echo $row['id']?>" class="btn btn-danger mx-1">ELIMINAR</a>
-                </th> -->
+                <th class = "mp-0">
+                    <a href="delete.php?id=<?php echo $row['user_id']?>" class="btn btn-danger mx-1">ELIMINAR</a>
+                </th>
 
             </tr>
 
