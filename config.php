@@ -12,7 +12,7 @@
             throw new Exception("Error al conectar a la base de datos: " . $connection->connect_error);
         }
 
-        echo "<h2>Conexión exitosa!</h2>";
+        // echo "<h2>Conexión exitosa!</h2>";
         return $connection;
     };
 

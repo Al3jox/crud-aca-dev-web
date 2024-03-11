@@ -15,7 +15,7 @@
     $stmt->execute();
 
     if($query){
-        Header("Location: listarUsuarios.php");
+        Header("Location: index.html");
     }
 
     echo "Usuario creado correctamente";
